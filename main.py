@@ -43,4 +43,4 @@ async def get_all_feedback():
     return feedback_storage
 @app.get("/test-reload")
 async def test_reload():
-    return {"message": "Авторелоад действительно работает"}
+    return {"message": "Авторелоад работает"}
